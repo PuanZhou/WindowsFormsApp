@@ -28,7 +28,7 @@ namespace WindowsFormsApp._1._Overview
 
             SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=Northwind;Integrated Security=True");
             
-            conn.Open();
+            conn.Open();//aaaa
             //---------------
             conn.Close();
         }
